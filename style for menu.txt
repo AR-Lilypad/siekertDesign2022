@@ -1,0 +1,59 @@
+
+/* little style */
+
+div#menuButton {
+    width: 100px;
+    text-align: center;
+    background-color: #00f;
+    color: #fff;
+    padding: 10px;
+}
+
+div#navDesktop,
+div#navMobile {
+    border: 1px solid #000;
+    padding: 20px;
+    margin: 40px;
+    overflow: auto;
+}
+
+div#navDesktop a,
+div#navMobile a {
+    display: block;
+    float: left;
+    margin: 10px;
+    padding: 5px;
+}
+
+div#navDesktop a {
+    background-color: #f00;
+}
+div#navMobile a {
+    background-color: #0f0;
+}
+
+
+/* what matters */
+
+div#menuButton {
+    display: none;
+}
+div#navMobile {
+    display: none;
+}
+
+/* for mobile */
+
+@media screen and (max-width: 640px){
+    
+    div#navDesktop {
+        display: none;
+    }
+    div#menuButton {
+        display: block;
+    }
+    
+    
+}
+
+

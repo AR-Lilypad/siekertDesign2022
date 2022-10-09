@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+    <title>Siekert | Listings</title> 
+    
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+   <link href="https://fonts.googleapis.com/css?family=Domine|Raleway:regular,medium,bold" rel="stylesheet">
+    
+    <link rel="stylesheet" href="siekertstyle.css">
+    
+    <script src="jquery-3.3.1.min.js"> </script>
+    
+    <script src="jquery.cycle.all.js"> </script>
+    
+    </head>
+    
+  <body>
+      <div id="topbar">
+            <a href="index.html" class="li"><b>Scott&nbsp Siekert&nbsp <font color=#676061> Design, LLC</font></b></a> <br> <p>Architect | Realtor, <i>Curating modern and traditional homes.</i></p>
+        <br>
+            <a class="hamburger"><img src="images/hamburger.png"/></a> 
+            
+        </div>
+        
+      <div id="nav">
+          <a href="about.html">About</a>
+          <a href="development.html">New Development</a>
+          <a href="architecture.html">Architectural Projects</a>
+          <a href="listings.html">Listings</a>
+          <a href="resources.html">Resources</a>
+          
+      </div> 
+      
+      <div class="li">Discover the St. Louis Region </div>
+      
+      <div id="pager2">
+      </div>
+                
+          <div class="pg1-image">      
+              <a href="http://www.scottsiekert.com/community/6/st-louis-city"><img src="images/listingspg1City.jpg"></a>
+              
+              <a href="http://www.scottsiekert.com/community/1/central-corridor-st-louis-county"><img src="images/listingspg2CentralWest.jpg"></a>
+              
+              <a href="http://www.scottsiekert.com/community/2/franklin-county"><img src="images/listingspg3Jefferson.jpg"></a>
+              
+                                     
+     	  </div>
+      
+      <div class="clear"></div>
+   
+      <div class="box3"><h5>Click a region above to look at listings for that area.</h5></div>
+      
+      <footer>
+        <p>SCOTT SIEKERT DESIGN, LLC &nbsp;| &nbsp;ALL RIGHTS RESERVED</p>
+          
+        <p><b>Let's connect!</b></p>
+          
+        <div id="social">
+           <a href="https://www.facebook.com/"> <img src="images/facebook-logo-button-white.png"></a>
+            
+           <a href="https://twitter.com/?lang=en"> <img src="images/twitter-logo-button-white.png"></a>
+            
+        <a href="https://www.instagram.com"> <img src="images/instagram-logo-white.png"></a>
+          
+        </div>
+      </footer>
+      
+  <script> 
+    $(".pg1-image").cycle({ 
+    speed:  'fast', 
+    timeout: 3000, 
+    pager:  '#pager2' 
+    });
+      
+      $(".hamburger").click(function(){
+      $("#nav").toggle();   
+         
+     });     
+      
+    </script>             
+    </body>
+</html>

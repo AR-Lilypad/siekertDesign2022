@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+<head>
+    
+    <title>Siekert RE|Architecture</title> 
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    <link href="https://fonts.googleapis.com/css?family=Domine|Raleway:regular,medium,bold" rel="stylesheet">
+    
+    <link rel="stylesheet" href="siekertstyle.css">
+    
+    <script src="jquery-3.3.1.min.js"> </script>
+    
+    <script src="jquery.cycle.all.js"> </script>
+    
+    </head>
+    
+  <body>
+         
+      <div id="topbar">
+            <a href="index.html" class="li"><b>Scott&nbsp Siekert&nbsp <font color=#676061> Design, LLC</font></b></a> <br> <p>Architect | Realtor, <i>Curating modern and traditional homes.</i></p>
+        <br>
+            <a class="hamburger"><img src="images/hamburger.png"/></a> 
+            
+        </div>
+        
+      <div id="nav">
+          <a href="about.html">About</a>
+          <a href="development.html">New Development</a>
+          <a href="architecture.html">Architectural Projects</a>
+          <a href="listings.html">Listings</a>
+          <a href="resources.html">Resources</a>
+          
+      </div>
+      <div id="pager2">
+      </div>
+                
+          <div class="pg1-image">      
+              <a href="about.html"><img src="images/foyerHmPg1.jpg"></a>
+              
+              <a href="development.html"><img src="images/vistaHmPg2.jpg"></a>
+              
+              <a href="architecture.html"><img src="images/architecturePg3.jpg"></a>
+              
+              <a href="listings.html"><img src="images/listingHmPg3.jpg"></a>
+              
+              <a href="resources.html"><img src="images/resourcesHmPg.jpg"></a>
+                                     
+     	  </div>
+      
+      <div class="clear"></div>
+      
+      <div id="instruct"> <Strong><i>Click image to navigate to page.</i></Strong></div>
+      
+     <script> 
+      $(".pg1-image").cycle({ 
+    speed:  'fast', 
+    timeout: 3000, 
+    pager:  '#pager2' 
+});
+     $(".hamburger").click(function(){
+      $("#nav").toggle();   
+         
+     });     
+      
+      </script>   
+  </body>
+</html>
